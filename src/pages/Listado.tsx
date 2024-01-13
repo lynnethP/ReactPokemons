@@ -28,7 +28,7 @@ const Listado = () => {
         <>
             <h1>Pokemon - Nathy</h1>
 
-            <header>
+            <header className="px-5 py-3">
                 <input type="text" value={query} placeholder="Buscar Pokemon" onChange={(event) => setQuery(event.target.value.trim())} />
             </header>
 
